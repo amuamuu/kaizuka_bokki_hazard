@@ -24,4 +24,4 @@ kaizuka_rate = 35
 
 #シャムの予想される月収1万円と、同世代の平均月収35万円から算出されたシャムの体感する物価
 kaizuka_yen = kaizuka_rate * yen
-print( str(kaizuka_yen) + '貝塚円だで')
+print("{:,d}".format(kaizuka_yen) + '貝塚円だで')
