@@ -16,6 +16,12 @@
 #　　　　　　　　 　 　 　 　 l　　｀ー--一´　　　　 lー､
 #　 　 　 　 　 　 　 　 　 　 l　　　　　　　　　　　 ﾉ　　ヽー-､＿＿
 
+#日本円
+yen = 512810
+
+#貝塚レート
 kaizuka_rate = 35
-kaizuka_price = kaizuka_rate * 512810
-print( str(kaizuka_price) + '貝塚円だで')
+
+#シャムの予想される月収1万円と、同世代の平均月収35万円から算出されたシャムの体感する物価
+kaizuka_yen = kaizuka_rate * yen
+print( str(kaizuka_yen) + '貝塚円だで')
