@@ -17,8 +17,7 @@
 # 　 　 　 　 　 　 　 　 　 　 l　　　　　　　　　　　 ﾉ　　ヽー-､＿＿
 
 # 日本円
-print('日本円を入力')
-yen = input()
+yen = input('日本円を入力　>>')
 
 # 貝塚レート
 kaizuka_rate = 35
